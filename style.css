@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    font-family: monospace;
+}
+html{
+    height:100vh;
+}
+body{
+    background-color: #f6d55c;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    grid-auto-rows: 200px;
+    border: 10px solid;
+
+}
+section{
+    margin: 10%;
+    padding: 10%;
+}
+footer {
+    background-color: #313131;
+    grid-column: 1/4;   
+    text-align: center;
+    
+    
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: #f6d55c;
+
+}
+button{
+    border: none;
+    background: none;
+}
+header{
+    
+    background-color: #313131;
+    position: relative;
+    grid-template-rows: 200px;
+    grid-column: 1/4;
+    grid-row: inherit;
+    
+    
+
+}
+nav ul li{
+    list-style-type: none;
+}
+#market{
+    grid-column: 2/3;
+    background-color: #fff;
+    grid-row: 2/5;
+}
+
+#scoreboard{
+    grid-column: 3/4;
+    grid-row: span 3;
+}
+#cookie{
+    grid-column: 1/2;
+    grid-row: span 3;
+}
+footer p{
+    position: relative;
+    top:5rem;
+    color: #f6d55c;
+}
+img:hover{
+    animation: rotation 3s infinite linear;
+}
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+
+img{
+    padding:0%;
+    /* border: none;  */
+    outline: none;
+}
+#étiquette{
+    font-size: 3rem;
+}
+button{
+    border: solid;
+    background-color: lightblue;
+    
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(255, 166, 166);
+}
