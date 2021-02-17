@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-   
-    <section>
-        <button id="incrimentation1">incrémente</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cookie Clicker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Click the cookie</h1>
+            <nav>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <article id="étiquette"></article>
-    </section>
-    
-<!-- fin du premier bouton  pour l incrémentation -->
+        <section
+            id="cookie">
+            <!-- div est mieux que button ici, button affiche un bord lors du clic -->
+            <div><img id="incrimentation1" value="PLAY" onclick="play()" src="cookie-image.png" alt="cookie image" width="300px">
+            </div>
+            <audio id="audio" src="Mouse-Click-00-c-FesliyanStudios.com_01.mp3"></audio>
 
-    <section>
-        <button id="décrimentation-15">décrimentation-15</button>
-    </section>
-    
-<!-- fin du premier bouton  pour l incrémentation -->
 
-    <section>
-        <button id="multiplicationx2">multiplicationx2</button>
-    </section>
+        </section>
+        <section id="market">
+            <h2>Store</h2>
+            <button id="décrimentation-15">décrémentation -15</button><br><br>
+            <button id="multiplicationx2" value="PLAY" onclick="doubleClick()">multiplication x2</button>
+            <audio id="audio2" src="Mouse-Click-DoubleClick-05-c-FesliyanStudios.com_01.mp3"></audio>
+        </section>
 
-<!--
-<div id="étiquette"></div>
--->
-</body>
-<script src="exo.js"></script>
+        <section id="scoreboard">
+            <h2>
+                Scoreboard
+            </h2>
+            <article id="étiquette">Score 0</article>
+        </section>
+        <footer>
+            <p>Copyright 2021 BeCode team Katinda Mehmet Hugo
+                <a href="https://github.com/becodeorg/BXL-Swartz-4-27/blob/master/2.The-Hill/1.Javascript/cookieClicker.md" target="_blank">Repo</a>
+            </p>
+        </footer>
+    </body>
+    <script src="exo.js"></script>
 </html>
