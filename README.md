@@ -67,7 +67,7 @@ Step 13: make it pretty
 ! Mockup2 (Mockup2.png)
 
 ---
-## Contributers
+## Contributeors
 
 - Mehmet
 - Katinda
