@@ -24,6 +24,10 @@ function doubleClick() {
 }
 
 // décrémentation de la variable score à chaque fois que le joueur achète un multiplicateur 
+<<<<<<< HEAD
+=======
+ hugo
+>>>>>>> 1f1ef777a87b9a3545b19a1e05d13896a7d2b0ef
 
 button2.addEventListener("click", function () {
         augmenter();
@@ -76,6 +80,14 @@ function buyAutoClicker(){
     else if (score <=((score-1) *15)){
         return false;
 
+<<<<<<< HEAD
+=======
+button2.addEventListener("click", function () {
+    if (score >= 15 && score < 100) {
+        score -= 15;
+        document.getElementById("étiquette").innerHTML = "Score " + score;
+        console.log(score);
+>>>>>>> 1f1ef777a87b9a3545b19a1e05d13896a7d2b0ef
     }
 }  */
     
@@ -100,6 +112,7 @@ function buyAutoClicker(){
         document.getElementById("multiplicationx2").innerHTML = "multiplcationX5 " ;
         document.getElementById("étiquette").innerHTML = "Score " + score;
         console.log(score);
+<<<<<<< HEAD
         console.log("le mutiplicateur x5 ");
         for(let i=1; i>0;i--){
             achat();
@@ -117,6 +130,9 @@ function achat (){
     }
     else {
         score=score-30;
+=======
+ main
+>>>>>>> 1f1ef777a87b9a3545b19a1e05d13896a7d2b0ef
     }
 }
 
@@ -130,6 +146,10 @@ function achatAuto (){
 
 
 
+<<<<<<< HEAD
+=======
+ hugo
+>>>>>>> 1f1ef777a87b9a3545b19a1e05d13896a7d2b0ef
  
 
 /* Le joueur achète le bonus, il double sont click pour 30s et perd 300 points */
@@ -158,7 +178,23 @@ if (timeSecond <= 0 || timeSecond <1) {
 }; */
         
     
+<<<<<<< HEAD
  
+=======
+
+// multiplie le scrore de deux points 
+button3.addEventListener("click", function () {
+    if (score >= 15) {
+        score *= 2;
+        document.getElementById("étiquette").innerHTML = "Score " + score;
+        console.log(score);
+        console.log("le mutiplicateur x2 ");
+    }
+
+});
+
+ main
+>>>>>>> 1f1ef777a87b9a3545b19a1e05d13896a7d2b0ef
 
 
 
