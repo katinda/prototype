@@ -26,7 +26,7 @@ function bip() {
     else {	
         document.getElementById("bip").innerHTML = counter + " secondes restantes";
         
-    }	                                         c                
+    }	                                                       
 }
 function start(){
   intervalId = setInterval(bip, 1000);
