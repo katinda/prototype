@@ -65,8 +65,8 @@ Make it so that, if the player doesn’t have the points to purchase a multiplie
 
 ## Mockups
 
-Mockup1: https://github.com/katinda/prototype/blob/main/Mockup.png
-Mockup2: https://github.com/katinda/prototype/blob/main/Mockup2.png
+- Mockup1: https://github.com/katinda/prototype/blob/main/Mockup.png
+- Mockup2: https://github.com/katinda/prototype/blob/main/Mockup2.png
 
 ## Contributors
 
